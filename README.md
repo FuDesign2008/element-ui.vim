@@ -1,12 +1,12 @@
 # element-ui.vim
 
-Toolkit for element ui
+Vim plugin for element-ui
 
-1. Add command `:ElementUI`
-
-    - open the document of element ui
-    - open the document of `<tag>` under cursor
-    - map keys for the command
-
-1. `el-<tag>`, `el-icon-xx` complete for YCM
-    - https://github.com/Valloric/YouCompleteMe/issues/138
+1. Add command `:ElDoc`
+    - `:ElDoc`
+        - el-xxx under cursor
+        - first el-xxx in current line
+        - open the document of element ui
+    - `:ElDoc tag` (el-dialog -> dialog)
+    - `:ElDoc icons`
+    - `:ElDoc` with completor
